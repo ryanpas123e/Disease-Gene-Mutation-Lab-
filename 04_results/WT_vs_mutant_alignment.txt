@@ -1,0 +1,113 @@
+########################################
+# Program: needle
+# Rundate: Tue 22 Sep 2026 13:06:30
+# Commandline: needle
+#    -asequence /corral4/main/objects/c/b/2/dataset_cb2be325-c604-4f27-b6aa-60a47a0ccd7a.dat
+#    -bsequence /corral4/main/objects/e/c/e/dataset_ecee9cff-edaa-4065-bddc-9d2cf745e5a9.dat
+#    -outfile /corral4/main/jobs/079/934/79934111/outputs/dataset_0cfab384-7a7a-45d6-8e5a-5fd2803c1771.dat
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -brief yes
+#    -aformat3 srspair
+#    -auto
+# Align_format: srspair
+# Report_file: /corral4/main/jobs/079/934/79934111/outputs/dataset_0cfab384-7a7a-45d6-8e5a-5fd2803c1771.dat
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MSH2_c942plus3A_T_mutant_1
+# 2: NM_000251.3_cds_NP_000242.1_1_1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 935
+# Identity:     885/935 (94.7%)
+# Similarity:   885/935 (94.7%)
+# Gaps:          50/935 ( 5.3%)
+# Score: 4465.5
+# 
+#
+#=======================================
+
+MSH2_c942plus      1 MAVQPKETLQLESAAEVGFVRFFQGMPEKPTTTVRLFDRGDFYTAHGEDA     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c      1 MAVQPKETLQLESAAEVGFVRFFQGMPEKPTTTVRLFDRGDFYTAHGEDA     50
+
+MSH2_c942plus     51 LLAAREVFKTQGVIKYMGPAGAKNLQSVVLSKMNFESFVKDLLLVRQYRV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c     51 LLAAREVFKTQGVIKYMGPAGAKNLQSVVLSKMNFESFVKDLLLVRQYRV    100
+
+MSH2_c942plus    101 EVYKNRAGNKASKENDWYLAYKASPGNLSQFEDILFGNNDMSASIGVVGV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    101 EVYKNRAGNKASKENDWYLAYKASPGNLSQFEDILFGNNDMSASIGVVGV    150
+
+MSH2_c942plus    151 KMSAVDGQRQVGVGYVDSIQRKLGLCEFPDNDQFSNLEALLIQIGPKECV    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    151 KMSAVDGQRQVGVGYVDSIQRKLGLCEFPDNDQFSNLEALLIQIGPKECV    200
+
+MSH2_c942plus    201 LPGGETAGDMGKLRQIIQRGGILITERKKADFSTKDIYQDLNRLLKGKKG    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    201 LPGGETAGDMGKLRQIIQRGGILITERKKADFSTKDIYQDLNRLLKGKKG    250
+
+MSH2_c942plus    251 EQMNSAVLPEMEN-------------------------------------    263
+                     |||||||||||||                                     
+NM_000251.3_c    251 EQMNSAVLPEMENQVAVSSLSAVIKFLELLSDDSNFGQFELTTFDFSQYM    300
+
+MSH2_c942plus    264 -------------QGSVEDTTGSQSLAALLNKCKTPQGQRLVNQWIKQPL    300
+                                  |||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    301 KLDIAAVRALNLFQGSVEDTTGSQSLAALLNKCKTPQGQRLVNQWIKQPL    350
+
+MSH2_c942plus    301 MDKNRIEERLNLVEAFVEDAELRQTLQEDLLRRFPDLNRLAKKFQRQAAN    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    351 MDKNRIEERLNLVEAFVEDAELRQTLQEDLLRRFPDLNRLAKKFQRQAAN    400
+
+MSH2_c942plus    351 LQDCYRLYQGINQLPNVIQALEKHEGKHQKLLLAVFVTPLTDLRSDFSKF    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    401 LQDCYRLYQGINQLPNVIQALEKHEGKHQKLLLAVFVTPLTDLRSDFSKF    450
+
+MSH2_c942plus    401 QEMIETTLDMDQVENHEFLVKPSFDPNLSELREIMNDLEKKMQSTLISAA    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    451 QEMIETTLDMDQVENHEFLVKPSFDPNLSELREIMNDLEKKMQSTLISAA    500
+
+MSH2_c942plus    451 RDLGLDPGKQIKLDSSAQFGYYFRVTCKEEKVLRNNKNFSTVDIQKNGVK    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    501 RDLGLDPGKQIKLDSSAQFGYYFRVTCKEEKVLRNNKNFSTVDIQKNGVK    550
+
+MSH2_c942plus    501 FTNSKLTSLNEEYTKNKTEYEEAQDAIVKEIVNISSGYVEPMQTLNDVLA    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    551 FTNSKLTSLNEEYTKNKTEYEEAQDAIVKEIVNISSGYVEPMQTLNDVLA    600
+
+MSH2_c942plus    551 QLDAVVSFAHVSNGAPVPYVRPAILEKGQGRIILKASRHACVEVQDEIAF    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    601 QLDAVVSFAHVSNGAPVPYVRPAILEKGQGRIILKASRHACVEVQDEIAF    650
+
+MSH2_c942plus    601 IPNDVYFEKDKQMFHIITGPNMGGKSTYIRQTGVIVLMAQIGCFVPCESA    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    651 IPNDVYFEKDKQMFHIITGPNMGGKSTYIRQTGVIVLMAQIGCFVPCESA    700
+
+MSH2_c942plus    651 EVSIVDCILARVGAGDSQLKGVSTFMAEMLETASILRSATKDSLIIIDEL    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    701 EVSIVDCILARVGAGDSQLKGVSTFMAEMLETASILRSATKDSLIIIDEL    750
+
+MSH2_c942plus    701 GRGTSTYDGFGLAWAISEYIATKIGAFCMFATHFHELTALANQIPTVNNL    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    751 GRGTSTYDGFGLAWAISEYIATKIGAFCMFATHFHELTALANQIPTVNNL    800
+
+MSH2_c942plus    751 HVTALTTEETLTMLYQVKKGVCDQSFGIHVAELANFPKHVIECAKQKALE    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    801 HVTALTTEETLTMLYQVKKGVCDQSFGIHVAELANFPKHVIECAKQKALE    850
+
+MSH2_c942plus    801 LEEFQYIGESQGYDIMEPAAKKCYLEREQGEKIIQEFLSKVKQMPFTEMS    850
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000251.3_c    851 LEEFQYIGESQGYDIMEPAAKKCYLEREQGEKIIQEFLSKVKQMPFTEMS    900
+
+MSH2_c942plus    851 EENITIKLKQLKAEVIAKNNSFVNEIISRIKVTT*    885
+                     |||||||||||||||||||||||||||||||||| 
+NM_000251.3_c    901 EENITIKLKQLKAEVIAKNNSFVNEIISRIKVTT*    935
+
+
+#---------------------------------------
+#---------------------------------------
